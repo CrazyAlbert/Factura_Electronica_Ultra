@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rfc: 
+  nombre: 
+  calle: 
+  noExterior: 
+  noInterior: 
+  colonia: 
+  cp: 
+  municipio: 
+  estado: 
+  pais: 
+
+two:
+  rfc: 
+  nombre: 
+  calle: 
+  noExterior: 
+  noInterior: 
+  colonia: 
+  cp: 
+  municipio: 
+  estado: 
+  pais: 
