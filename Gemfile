@@ -7,7 +7,7 @@ gem 'rails', '4.1.7'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
-# Use to generate a pdf structure
+# Use to generate a pdf in rails
 gem 'wicked_pdf', '~> 0.11.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
