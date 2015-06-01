@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150601153528) do
+ActiveRecord::Schema.define(version: 20150601204741) do
 
   create_table "clientes", force: true do |t|
     t.string   "rfc"
@@ -24,6 +24,12 @@ ActiveRecord::Schema.define(version: 20150601153528) do
     t.string   "estado"
     t.string   "pais"
     t.string   "cp"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "estados", force: true do |t|
+    t.string   "nombre"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

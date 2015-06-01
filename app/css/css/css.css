@@ -1,0 +1,38 @@
+body {
+    background-color: #CC99FF;
+}
+
+table #tablaintro{
+    background-color: #FFCCFF;
+}
+
+table #cliente {
+    background-color: #9966FF;
+    border: hidden;
+}
+table #cliente2 {
+    background-color: #9966FF;
+    border: hidden;
+    border-color: #9966FF;
+}
+
+table #domicilio {
+    background-color: #9966FF;
+    border: hidden;
+}
+
+table #domicilio2 {
+    background-color: #9966FF;
+    border: hidden;
+}
+
+table #final_space {
+    background-color: #9966FF;
+    border: hidden;
+}
+
+table #final_space2 {
+    background-color: #9966FF;
+    border: hidden;
+}
+

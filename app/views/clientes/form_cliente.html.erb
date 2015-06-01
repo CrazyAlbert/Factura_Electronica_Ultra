@@ -1,0 +1,14 @@
+<h1>Captura de los datos de clientes</h1>
+<%= form_tag :action => 'form_cliente' do %>
+  <p> RFC: <%= text_field_tag 'rfc', @rfc %> </p> <br>
+  <p> Nombre: <%= text_field_tag 'nombre', @nombre %> </p> <br>
+  <p> Calle: <%= text_field_tag 'calle', @calle %> </p> <br>
+  <p> Numero externo: <%= text_field_tag 'numExt', @numExt %> </p> <br>
+  <p> Numero interno: <%= text_field_tag 'numInt', @numInt %> </p> <br>
+  <p> Colonia: <%= text_field_tag 'colonia', @colonia %> </p> <br>
+  <p> Municipio: <%= text_field_tag 'municipio', @municipio %> </p> <br>
+  <p> Estado: <%=select_tag(:estado, options_for_select([['Aguascalientes', 1], ['Baja California', 2], ['Baja California Sur', 3], ['Campeche', 4], ['Coahuila', 5], ['Colima', 6], ['Chiapas', 7], ['Chihuahua', 8], ['Distrito Federal', 9], ['Durango', 10], ['Guanajuato', 11], ['Guerrero', 12], ['Hidalgo', 13], ['Jalisco', 14], ['Estado de México', 15], ['Michoacán', 16], ['Morelos', 17], ['Nayarit', 18], ['Nuevo León', 19], ['Oaxaca', 20], ['Puebla', 21], ['Querétaro', 22], ['Quintana Roo', 23], ['San Luis Potosí', 24], ['Sinaloa', 25], ['Sonora', 26], ['Tabasco', 27], ['Tamaulipas', 28], ['Tlaxcala', 29], ['Veracruz', 30], ['Yucatán', 31], ['Zacatecas', 32]]))%> </p>
+  <p> Codigo postal: <%= text_field_tag 'cp', @cp %> </p> <br>
+  <%= submit_tag 'guardar'%>
+<% end %>
+
